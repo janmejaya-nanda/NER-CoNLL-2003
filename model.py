@@ -62,7 +62,7 @@ class BiLSTM(BaseModel):
             return_sequences=True,
             recurrent_dropout=0.25,
             dropout=0.50,
-        ), input_shape=(MAX_WORD_NUMBER, WORD_VECTOR_SIZE)))
+        )))
         self.model.add(TimeDistributed(Dense(self.n_class, activation="softmax")))
 
         self.model.compile(
