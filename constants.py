@@ -12,7 +12,7 @@ TARGET_PADDING = 'O'
 
 # Hyper-parameters
 BATCH_SIZE = 128
-N_EPOCH = 5
+N_EPOCH = 12
 
 
 class DataFrameHeaders:
